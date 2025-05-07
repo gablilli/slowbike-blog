@@ -1,3 +1,4 @@
+
 <!doctype html>
     <html lang="it_IT">
   <head>
@@ -6,13 +7,13 @@
     <meta name="appleid-signin-redirect-uri" content="https://users.wix.com">
     <meta name="appleid-signin-use-popup" content="true">
         <title>
-      Accedi al tuo account Wix - Wix.com
+      Accedi al tuo account SlowBike
     </title>
           <link rel="canonical" href="https://users.wix.com/signin?forceRender=true&overrideLocale=it">
-        <meta name="description" content="Accedi al tuo account Wix per entrare nell'editor del sito web e usufruire di soluzioni aziendali complete.">
-    <link rel="icon" sizes="192x192" href="https://www.wix.com/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="https://www.wix.com/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="https://www.wix.com/favicon.ico" type="image/x-icon">
+        <meta name="description" content="Accedi al tuo account Slowbike">
+    <link rel="icon" sizes="192x192" href="https://www.slowbikegubbio.it/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://www.slowbikegubbio.it/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://www.slowbikegubbio.it/favicon.ico" type="image/x-icon">
           <link rel="alternate" href="https://users.wix.com/signin?forceRender=true&overrideLocale=it" hreflang="it" />
         <link rel="stylesheet" href="//static.parastorage.com/services/login-react-app/1.2348.0/app.min.css">
     <link rel="stylesheet" href="https:////static.parastorage.com//unpkg/@wix/wix-fonts@1.11.0/madefor.min.css">
@@ -64,8 +65,8 @@
       const toValidValue = (str) => str.includes('$') ? undefined : str
       const params = new URLSearchParams(window.location.search)
       window.__NO_INDEX__ = '${$shouldNotIndex}';
-      window.__BASE_DOMAIN__ = 'wix.com';
-      window.__BASEURL__ = toValidValue('${basename}') || '/signin/';
+      window.__BASE_DOMAIN__ = 'github.io';
+      window.__BASEURL__ = toValidValue('${basename}') || '/';
       window.__IS_NEW_LOGIN__ = '${isNewLogin}' || 'true';
       window.__COUNTRY_CODE__ = 'IT';
       window.__LANGUAGE__ = 'it_IT';
@@ -92,9 +93,8 @@
           baseUrl: window.location.hostname,
           consentPolicy: JSON.parse('{"functional":true,"analytics":true,"advertising":false,"dataToThirdParty":false,"essential":true}')
         });
-        const loginHostName = window.__BASE_DOMAIN__.includes('editorx') ? window.wixTagManager.HOST_NAMES.LOGIN_PAGE_EDITOR_X : window.wixTagManager.HOST_NAMES.LOGIN_PAGE;
+        const loginHostName = window.__BASE_DOMAIN__.includes('github.io') ? window.wixTagManager.HOST_NAMES.LOGIN_PAGE_EDITOR_X : window.wixTagManager.HOST_NAMES.LOGIN_PAGE;
         window.wixTagManager.init(loginHostName, window.__LOCALE__);
       </script>
         <script crossorigin src="//static.parastorage.com/services/login-react-app/1.2348.0/app.bundle.min.js"></script>
   </body>
-</html>

@@ -27,5 +27,7 @@ https://manage.wix.com/dashboard/d70d3799-d80f-4f6e-b00f-535e4063ce57/blog/overv
 
 ## 📝 Notes
 •	This project is only a redirect helper.
+
 •	The Wix dashboard cannot be hosted directly on your domain due to security restrictions.
+
 •	Perfect if you want a neat shortcut like blogadmin.yourdomain.com pointing to your Wix dashboard.
